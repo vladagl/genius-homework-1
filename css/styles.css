@@ -1,0 +1,55 @@
+/* Base */
+:root {
+    --color-main: #011C44;
+    --color-brand: #2B7FFF;
+    --color-links: #FFFFFF;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Links */
+
+.link {
+    color: var(--color-links);
+}
+
+/* Button */
+
+.button {
+    color: var(--color-links);
+    background-color: var(--color-brand);
+    border: none;
+    border-radius: 32px;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: var(--color-main);
+    background-color: transparent;
+    border: 2px solid;
+    border-color: var(--color-brand);
+}
+
+.link:hover {
+    color: var(--color-brand);
+}
+
+/* Banner */
+
+.hero-title {
+    color: var(--color-brand);
+}
+
+/* Accent */
+
+.accent {
+    color: var(--color-brand);
+}
+
+/* Services */
+
+.procedures-list {
+    color: var(--color-links);
+}
