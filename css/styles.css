@@ -5,14 +5,42 @@
     --color-links: #FFFFFF;
 }
 
+body {
+    background-color: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+}
+
+address {
+    font-style: normal;
+}
+
 ul {
     list-style-type: none;
+}
+
+h2 {
+    font-family:'Play', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
 }
 
 /* Links */
 
 .link {
     color: var(--color-links);
+    text-decoration: none;
+}
+
+.link:hover {
+    color: var(--color-brand);
+}
+
+.footer-links {
+    font-size: 16px;
+    color: var(--color-links);
+    text-decoration: none;
 }
 
 /* Button */
@@ -23,6 +51,7 @@ ul {
     border: none;
     border-radius: 32px;
     cursor: pointer;
+    font-size: 18px;
 }
 
 .button:hover {
@@ -32,14 +61,22 @@ ul {
     border-color: var(--color-brand);
 }
 
-.link:hover {
-    color: var(--color-brand);
-}
-
-/* Banner */
+/* Hero */
 
 .hero-title {
     color: var(--color-brand);
+    font-family: 'Play', sans-serif;
+    font-size: 140px;
+    font-weight: 700;
+}
+
+.free-consultation {
+    font-size: 12px;
+}
+
+.about {
+    font-size: 22px;
+    line-height: 1.7;
 }
 
 /* Accent */
@@ -52,4 +89,14 @@ ul {
 
 .procedures-list {
     color: var(--color-links);
+}
+
+/* Footer */
+.info {
+    font-size: 16px;
+}
+
+.rights {
+    font-size: 13px;
+    color: #747272;
 }
