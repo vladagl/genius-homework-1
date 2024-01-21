@@ -1,102 +1,130 @@
 /* Base */
 :root {
-    --color-main: #011C44;
-    --color-brand: #2B7FFF;
-    --color-links: #FFFFFF;
+  --color-main: #011c44;
+  --color-brand: #2b7fff;
+  --color-links: #ffffff;
 }
 
 body {
-    background-color: #FFFFFF;
-    font-family: 'Roboto';
-    font-size: 18px;
-    font-weight: 400;
+  background-color: #ffffff;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+.section {
+  padding: 48px 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 24px;
 }
 
 address {
-    font-style: normal;
+  font-style: normal;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 h2 {
-    font-family:'Play', sans-serif;
-    font-size: 64px;
-    font-weight: 700;
+  font-family: "Play", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
 }
 
 /* Links */
 
 .link {
-    color: var(--color-links);
-    text-decoration: none;
+  color: var(--color-links);
+  text-decoration: none;
 }
 
 .link:hover {
-    color: var(--color-brand);
+  color: var(--color-brand);
 }
 
 .footer-links {
-    font-size: 16px;
-    color: var(--color-links);
-    text-decoration: none;
+  font-size: 16px;
+  color: var(--color-links);
+  text-decoration: none;
 }
 
 /* Button */
 
 .button {
-    color: var(--color-links);
-    background-color: var(--color-brand);
-    border: none;
-    border-radius: 32px;
-    cursor: pointer;
-    font-size: 18px;
+  color: var(--color-links);
+  background-color: var(--color-brand);
+  border: none;
+  border-radius: 32px;
+  cursor: pointer;
+  font-size: 18px;
 }
 
 .button:hover {
-    color: var(--color-main);
-    background-color: transparent;
-    border: 2px solid;
-    border-color: var(--color-brand);
+  color: var(--color-main);
+  background-color: transparent;
+  border: 2px solid;
+  border-color: var(--color-brand);
 }
 
-/* Hero */
+/* Hero-section */
+
+.hero-section {
+  padding: 128px 0;
+}
 
 .hero-title {
-    color: var(--color-brand);
-    font-family: 'Play', sans-serif;
-    font-size: 140px;
-    font-weight: 700;
+  color: var(--color-brand);
+  font-family: "Play", sans-serif;
+  font-size: 140px;
+  font-weight: 700;
+  margin-top: 16px;
+  margin-bottom: 40px;
 }
 
 .free-consultation {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .about {
-    font-size: 22px;
-    line-height: 1.7;
+  font-size: 22px;
+  line-height: 1.7;
 }
 
 /* Accent */
 
 .accent {
-    color: var(--color-brand);
+  color: var(--color-brand);
 }
 
 /* Services */
 
 .procedures-list {
-    color: var(--color-links);
+  color: var(--color-links);
 }
 
 /* Footer */
 .info {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .rights {
-    font-size: 13px;
-    color: #747272;
+  font-size: 13px;
+  color: #747272;
 }
